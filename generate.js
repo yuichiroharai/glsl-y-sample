@@ -9,7 +9,7 @@ var uvMin = require("./lib/uv-min");
 var coord = require("./lib/coord");
 var coordMin = require("./lib/coord-min");
 
-var argv = require('minimist')(process.argv.slice(2),{
+var argv = minimist(process.argv.slice(2),{
     default: {
         min: 1,
         max: 10
