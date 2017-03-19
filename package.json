@@ -1,0 +1,35 @@
+{
+  "name": "glsl-y-sample",
+  "version": "1.0.0",
+  "description": "Sample each pixel in the neighborhood for glslify.",
+  "main": "coord/3.glsl",
+  "scripts": {
+    "gen": "node generate.js --min=1 --max=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yuichiroharai@github.com/yuichiroharai/glsl-y-sample.git"
+  },
+  "keywords": [
+    "glsl",
+    "glslify",
+    "shader",
+    "webgl",
+    "math",
+    "texture"
+  ],
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "http://www.yuichiroharai.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuichiroharai/glsl-y-sample/issues"
+  },
+  "homepage": "https://github.com/yuichiroharai/glsl-y-sample#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
